@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 24px;
+    margin: 24px 156px;
+}
+
+.gallery-item {
+    width: calc((100% - 48px) / 3);
+}
